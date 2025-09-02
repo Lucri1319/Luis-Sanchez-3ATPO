@@ -2,7 +2,11 @@ nigga = input("ingrese frases: ")
 
 print("lista de palabras", nigga.split(" "))
 
+nigga2 = nigga.count("tr")
+
 nigga = nigga.upper()
+
+print(nigga2)
 
 for nigga in nigga.split(" ") :
     print(nigga)
