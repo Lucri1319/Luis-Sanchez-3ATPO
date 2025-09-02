@@ -1,0 +1,8 @@
+nigga = input("ingrese frases: ")
+
+print("lista de palabras", nigga.split(" "))
+
+nigga = nigga.upper()
+
+for nigga in nigga.split(" ") :
+    print(nigga)
